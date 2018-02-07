@@ -1,13 +1,11 @@
 #include<stdio.h>
-void main()
+int main()
 {
 int a;
 printf("\nenter the number :");
 scanf("%d",&a);
 if((a%a)&&(a%1))
-{
 printf("\nyes");
-}
 else
 {
 printf("\n no");
